@@ -1,9 +1,10 @@
-/* Macro for calculating Area of oilred staining on microscopy Images
+/* Macro for calculating Area of oilred staining on microscopy images
  * 
  * Input: Microscopy Images (tif, jpg, png), oilred stained, optional hematoxylin counter stained nuclei
  * Process: color deconvolution to seperate oilred staining and measure stained area
  * measured color-vectors: oilred [1], nuclei [2], background [3]: [r1]=0.145216 [g1]=0.685399 [b1]=0.713540 [r2]=0.629769 [g2]=0.668531 [b2]=0.395546 [r3]=0.578353 [g3]=0.597890 [b3]=0.555008
  * empirical threshold for oilred-staining: [0-200]
+ * Outpu: Datasheet (xls|csv) with measured values of area. if scale is set correctly, it refers µm, otherwise it is only for relative measurements
  * SK / VetBiobank / VetCore / Vetmeduni Vienna 2021
  * 
  */
